@@ -1,9 +1,14 @@
 //backend
 var numbers = [];
-var beepBoop = function (input) {
-  for (var i = 0; i <= input; i++) {
-  numbers.push(i);
+var beepBoop = function (input) { 
+  for (var i = 0; i <= input; i++) { //Check if the current index is less than the given input. If it is, then continue increasing index
+    numbers.push(i); //pushes all numbers in index to array numbers
+    if (i.toString().includes("0")) { //Check if the number listed in the index includes a 0
+      alert("Beep!");
+    }
+
   console.log(input);
+  console.log(numbers);
 }
 return numbers;
 }
