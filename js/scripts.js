@@ -7,7 +7,9 @@ var beepBoop = function (input) {
       alert("Beep!");
     } else if (i.toString().includes("1")) { //Check if the number listed in the index includes a 1
         alert("Boop!");
-    } 
+    } else if (i % 3 === 0) { //If the current index number divided by 3 will set the index number to 0, then alert user with "I'm sorry, Dave. I'm afraid I can't do that."
+        alert("I'm sorry, Dave. I'm afraid I can't do that.");
+    }
 
   console.log(input);
   console.log(numbers);
