@@ -5,7 +5,7 @@ var beepBoop = function (input) {
   numbers.push(i);
   console.log(input);
 }
-
+return numbers;
 }
 
 
@@ -15,9 +15,8 @@ var beepBoop = function (input) {
 $(document).ready(function() {
     $("form#form1").submit(function(event) {
       event.preventDefault();
-      var input = $("input#input1").val();
       var input = parseInt($("input#input1").val());
-      var output = beepBoop(input);
-      $(".results").text(output);
+      var result = beepBoop(input);
+      $("#results").append(result);
     });
 });
