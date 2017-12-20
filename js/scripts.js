@@ -16,7 +16,7 @@ var beepBoop = function (input) {
       numbers[i] = i ;
     }
   }
-    return numbers;
+  return numbers;
 }
 
 
