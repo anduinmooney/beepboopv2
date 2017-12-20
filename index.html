@@ -8,26 +8,27 @@
     <title>Beep! Boop!</title>
   </head>
   <body>
+    <div class="background">
     <div class="container">
       <div class="well">
         <h1>Beep! Boop!</h1>
-
         <form id="form1">
           <input id="input1" class="form-control" type="number">
           <br>
         <button type="submit" name="button" class="btn btn-danger">Beep! Boop!</button>
         </form>
       </div>
-        <div class="well" id="welloutput">
-
-        <h2>Results:</h2>
-        <form id="resultClear">
-          <button type="submit" name="button" class="btn btn-danger">Reset!</button>
-        </form>
-        <br>
-        <ol start="0"><span id="results"></span> </ol>
-
+      <div class="wellOutput">
+        <div class="well">
+          <h2>Results:</h2>
+          <form id="resultClear">
+            <button type="submit" name="button" class="btn btn-danger">Reset!</button>
+          </form>
+          <br>
+          <ol start="0"><span id="results"></span> </ol>
+        </div>
       </div>
+    </div>
     </div>
   </body>
 </html>

@@ -33,6 +33,7 @@ $(document).ready(function() {
     var resultArray = [];
     $("#results").empty();
     $("#resultClear").show();
+    $(".wellOutput").show();
     numbers.forEach(function(resultArray) {
       $("#results").append("<li>" + resultArray + "</li>");
       $("form#form1").submit(function(event) {

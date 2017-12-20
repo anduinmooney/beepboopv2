@@ -1,3 +1,21 @@
 #resultClear {
   display: none;
 }
+
+body {
+background-image: url("../img/hal-9000.png");
+
+}
+
+.well {
+background-color: rgba(160, 0, 0,0.5);
+color: white;
+}
+
+.wellOutput {
+  display: none;
+}
+
+#input1 {
+
+}
