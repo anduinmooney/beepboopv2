@@ -28,7 +28,7 @@ _Make sure you have all the files in their default locations, or else the page m
 
 ## Known Bugs
 
-_Array of numbers will appear on bottom of list if list was previously cleared._
+_There are no known bugs! Let me know if you find any._
 
 ## Support and contact details
 
